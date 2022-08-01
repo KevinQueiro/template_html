@@ -1,0 +1,176 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+body::-webkit-scrollbar {
+    width: 20px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: gray;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 15px;       /* roundness of the scroll thumb */
+    border: 3px solid gray;  /* creates padding around scroll thumb */
+  }
+
+.navbar {
+    background-color: rgb(34, 34, 34);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 8%;
+    height: 100%;
+}
+
+.container {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.bi-github::before {
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.bi-linkedin::before {
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.bi-box-arrow-in-right::before {
+    color: aliceblue;
+}
+ 
+.aboutBanner {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    position: relative;
+}
+
+.banner {
+    height: 200px;
+    width: 100%;
+}
+
+.avatar {
+    display: flex;
+    height: 150px;
+    width: 20%;
+    margin-left: 0%;
+    margin-top: -50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatarContainer {
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;    
+    position: relative;
+}
+
+.avatarContainer > .avatarImg {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.avatarDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.aboutContent {
+    margin-left: 22%;
+    width: 75%;
+    color:aliceblue
+}
+
+.about {
+    width: 95%;
+}
+
+.other {
+    width: 95%;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    color: aliceblue;
+}
+
+/* .listPreview {
+    height: 10%;
+    width: 10%;
+} */
+
+.photoPreview {
+    height: 20%;
+    width: 20%;
+}
+
+.containerList {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.listDescription {
+    margin-left: 5%;
+}
+
+.eachList {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.button {
+    width: 10%;
+    margin-left: 10%;
+}
+
+.bi-envelope-fill::before {
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.bi-telephone-fill::before {
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: rgb(34, 34, 34);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
